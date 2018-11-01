@@ -1,0 +1,5 @@
+package userlogin;
+message userLogin{
+    required string userName = 1;
+    required string userPwd = 2;
+}

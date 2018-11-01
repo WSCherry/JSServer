@@ -1,0 +1,5 @@
+package peoplepackage;
+message peopleMessage {
+    required string name = 1;
+    required uint32 age = 2;
+}
